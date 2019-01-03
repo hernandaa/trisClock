@@ -44,8 +44,6 @@ namespace trisClock
             int hr = (this.addHrTextBox.Text == "") ?
                 Convert.ToInt32(time[0]) : Convert.ToInt16(time[0]) + Convert.ToInt16(this.addHrTextBox.Text);
 
-            //int test = Convert.ToInt16(time[1]) + Convert.ToInt16(this.AddMtTextbox.Text);
-
             this.clockLabel.Text = hr.ToString("00") + ":" + min.ToString("00") + ":" + sec.ToString("00");
             countingTime(this.clockLabel.Text.Split(':'));
         }
@@ -69,39 +67,6 @@ namespace trisClock
 
             if (hr > 23)
                 hr = hr - (int)(hr / 24 * 24);
-
-            ////////////////////////////////////////////////////
-
-            //if (min > 59)
-            //{
-            //    hr = hr + Convert.ToInt16(min / 60);
-            //    min = (min/6) - Math.Truncate(min / 60);
-            //}
-
-            //if (hr > 23)
-            //    hr = (hr/24) - Math.Truncate(hr / 24);
-
-            //////////////////////////////////////////////////
-
-            //if (sec > 59)
-            //{
-            //    double fsec = sec / 60;
-            //    min = min + Convert.ToInt16(sec / 60);
-            //    sec = (int)fsec;
-            //}
-
-            //if(min > 59)
-            //{ 
-            //    double fmin = min / 60;
-            //    hr = hr + Convert.ToInt16(hr / 60);
-            //    min = (int)fmin;
-            //}
-
-            //if(hr > 23)
-            //{
-            //    double fhr = hr / 24;
-            //    hr = fhr - Math.Truncate(fhr);
-            //}
 
             this.clockLabel.Text = hr.ToString("00") + ":" + min.ToString("00") + ":" + sec.ToString("00");
         }
