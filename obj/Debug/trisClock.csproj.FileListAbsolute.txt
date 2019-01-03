@@ -1,0 +1,9 @@
+C:\WF\PROJECT\VS\trisClock\trisClock\obj\Debug\trisClock.csprojResolveAssemblyReference.cache
+C:\WF\PROJECT\VS\trisClock\trisClock\obj\Debug\trisClock.Form1.resources
+C:\WF\PROJECT\VS\trisClock\trisClock\obj\Debug\trisClock.Properties.Resources.resources
+C:\WF\PROJECT\VS\trisClock\trisClock\obj\Debug\trisClock.csproj.GenerateResource.Cache
+C:\WF\PROJECT\VS\trisClock\trisClock\bin\Debug\trisClock.exe.config
+C:\WF\PROJECT\VS\trisClock\trisClock\bin\Debug\trisClock.exe
+C:\WF\PROJECT\VS\trisClock\trisClock\bin\Debug\trisClock.pdb
+C:\WF\PROJECT\VS\trisClock\trisClock\obj\Debug\trisClock.exe
+C:\WF\PROJECT\VS\trisClock\trisClock\obj\Debug\trisClock.pdb
