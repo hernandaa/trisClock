@@ -66,7 +66,7 @@ namespace trisClock
             if(min > 59)
             { 
                 double fmin = min / 60;
-                hr = min + Convert.ToInt16(hr / 60);
+                hr = hr + Convert.ToInt16(hr / 60);
                 min = (int)fmin;
             }
 
